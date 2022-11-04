@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Fredoka One;
+    
+  
+}
+/* html{
+font-size: 62.5%;
+font-size:10px;
+font-size: 1rem;
+}
+@media(max-width:998px){
+  html{
+    font-size: 45%;
+  }
+}
+
+@media(max-width:768px){
+  html{
+    font-size: 45%;
+  }
+} */
+
+.home{
+    margin: 0rem;
+    margin-top: 0rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; 
+      align-items: center;
+     flex-direction: column;
+     padding: 3rem;  
+}
+.homebuttons{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin: 0.5rem;
+}
+.homebuttons :hover{
+  cursor: url('https://img.informer.com/icons/png/32/113/113532.png') 16 16, crosshair;
+}
+#instructions{
+    margin-top: 7rem;
+}
+#name{
+    width: 100px; 
+}
+
+#startdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#redsquare{
+margin-right: 5rem;
+}
+#bluesquare{
+margin-left: 5rem;
+}
+#yourname{
+  display: flex;
+  flex-wrap: wrap;
+  width: 25rem;
+  height: 2.3rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding-left:  0.5rem;
+  padding-right: 0.5rem;
+  background-color: blue;
+  border-radius: 0.2rem;
+}
+.yourname{
+  font-size: 1.5rem;
+  margin-right: 0.3rem;
+}
+.input{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.instruction{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+padding: 2rem;
+}
+.inselement{
+    margin-top: 2rem;
+}
+.inselement:hover{
+  cursor: url('https://img.informer.com/icons/png/32/113/113532.png') 16 16, crosshair;
+}
+.inscontent{
+    margin-bottom: 2rem;
+}
+
+.gameover{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.goelement{
+    margin-top: 3rem;
+    padding: 1rem;
+}
+#startagain:hover{
+  cursor: url('https://img.informer.com/icons/png/32/113/113532.png') 16 16, crosshair;
+}
+#home:hover{
+  cursor: url('https://img.informer.com/icons/png/32/113/113532.png') 16 16, crosshair;
+}
+h1{
+    font-size: 4rem;
+}
+.startagain{
+    margin-top: 7rem;
+}
+/*-----------------------------*/
+#txt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+    color: white;
+    margin: 0;
+    background-color: black;
+  }
+  canvas {
+    width: 100%;
+  }
+  #canvas-top{
+    border-top: 100%;
+    border-color: white;
+    border-style: double;
+  }
+  .canvas-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+    border-width: .35rem;
+    border-style: double;
+    width: 85%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1%;
+    
+  }
+  .gamecenter{
+    padding: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .center {
+    text-align: center;
+  }
+  .game {
+    position: relative;
+  }
+  .gametxt{
+    margin: 0%;
+    margin-left: 2%;
+    font-size: 2rem;
+  }
+
+  
+
